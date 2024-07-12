@@ -1,0 +1,17 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
