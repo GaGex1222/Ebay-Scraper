@@ -47,7 +47,7 @@ class SeleniumFinder():
             a_tag = div2.find_element(By.TAG_NAME, 'a')
             div_item_title = div2.find_element(By.CSS_SELECTOR, '.s-item__title')
             span_item_title = div_item_title.find_element(By.TAG_NAME, 'span')
-            link = a_tag.get_attribute('href')
+            link = a_tag.get_attribute('href').split('?')[0]
             links.append(link)
             product_names.append(span_item_title.text)
         
